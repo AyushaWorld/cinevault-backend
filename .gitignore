@@ -1,6 +1,21 @@
-node_modules/
+# Environment variables
 .env
-uploads/
-*.log
-.DS_Store
 
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Uploads (optional - uncomment if you don't want to track uploaded files)
+# uploads/
